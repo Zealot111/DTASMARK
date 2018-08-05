@@ -1,0 +1,246 @@
+CSAT автомат
+
+comment "Exported from Arsenal by [RMC] Chief";
+
+comment "Remove existing items";
+removeAllWeapons _unit;
+removeAllItems _unit;
+removeAllAssignedItems _unit;
+removeUniform _unit;
+removeVest _unit;
+removeBackpack _unit;
+removeHeadgear _unit;
+removeGoggles _unit;
+
+comment "Add containers";
+_unit forceAddUniform "U_O_T_Soldier_F";
+for "_i" from 1 to 2 do {_unit addItemToUniform "FirstAidKit";};
+for "_i" from 1 to 2 do {_unit addItemToUniform "HandGrenade";};
+_unit addVest "V_HarnessO_ghex_F";
+for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
+for "_i" from 1 to 5 do {_unit addItemToVest "30Rnd_580x42_Mag_F";};
+for "_i" from 1 to 2 do {_unit addItemToVest "9Rnd_45ACP_Mag";};
+_unit addHeadgear "H_HelmetLeaderO_ghex_F";
+_unit addGoggles "G_Spectacles_Tinted";
+
+comment "Add weapons";
+_unit addWeapon "arifle_CTAR_ghex_F";
+_unit addPrimaryWeaponItem "optic_Aco";
+_unit addWeapon "hgun_ACPC2_F";
+
+comment "Add items";
+_unit linkItem "ItemMap";
+_unit linkItem "ItemCompass";
+_unit linkItem "ItemWatch";
+_unit linkItem "ItemRadio";
+
+comment "Set identity";
+_unit setFace "WhiteHead_10";
+_unit setSpeaker "male05gre";
+
+CSAT гп
+
+comment "Exported from Arsenal by [RMC] Chief";
+
+comment "Remove existing items";
+removeAllWeapons _unit;
+removeAllItems _unit;
+removeAllAssignedItems _unit;
+removeUniform _unit;
+removeVest _unit;
+removeBackpack _unit;
+removeHeadgear _unit;
+removeGoggles _unit;
+
+comment "Add containers";
+_unit forceAddUniform "U_O_T_Soldier_F";
+for "_i" from 1 to 2 do {_unit addItemToUniform "FirstAidKit";};
+for "_i" from 1 to 2 do {_unit addItemToUniform "HandGrenade";};
+_unit addVest "V_HarnessOGL_ghex_F";
+for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
+for "_i" from 1 to 2 do {_unit addItemToVest "9Rnd_45ACP_Mag";};
+for "_i" from 1 to 5 do {_unit addItemToVest "30Rnd_580x42_Mag_F";};
+for "_i" from 1 to 4 do {_unit addItemToVest "1Rnd_HE_Grenade_shell";};
+for "_i" from 1 to 2 do {_unit addItemToVest "1Rnd_Smoke_Grenade_shell";};
+_unit addHeadgear "H_HelmetLeaderO_ghex_F";
+_unit addGoggles "G_Spectacles_Tinted";
+
+comment "Add weapons";
+_unit addWeapon "arifle_CTAR_GL_ghex_F";
+_unit addPrimaryWeaponItem "optic_Aco";
+_unit addWeapon "hgun_ACPC2_F";
+
+comment "Add items";
+_unit linkItem "ItemMap";
+_unit linkItem "ItemCompass";
+_unit linkItem "ItemWatch";
+_unit linkItem "ItemRadio";
+
+comment "Set identity";
+_unit setFace "WhiteHead_10";
+_unit setSpeaker "male05gre";
+
+CSAT пулеметчик с Зафир
+
+comment "Exported from Arsenal by [RMC] Chief";
+
+comment "Remove existing items";
+removeAllWeapons _unit;
+removeAllItems _unit;
+removeAllAssignedItems _unit;
+removeUniform _unit;
+removeVest _unit;
+removeBackpack _unit;
+removeHeadgear _unit;
+removeGoggles _unit;
+
+comment "Add containers";
+_unit forceAddUniform "U_O_T_Soldier_F";
+for "_i" from 1 to 2 do {_unit addItemToUniform "FirstAidKit";};
+for "_i" from 1 to 2 do {_unit addItemToUniform "HandGrenade";};
+_unit addVest "V_HarnessO_ghex_F";
+for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
+for "_i" from 1 to 2 do {_unit addItemToVest "9Rnd_45ACP_Mag";};
+for "_i" from 1 to 2 do {_unit addItemToVest "150Rnd_762x54_Box";};
+_unit addHeadgear "H_HelmetLeaderO_ghex_F";
+_unit addGoggles "G_Spectacles_Tinted";
+
+comment "Add weapons";
+_unit addWeapon "LMG_Zafir_F";
+_unit addWeapon "hgun_ACPC2_F";
+
+comment "Add items";
+_unit linkItem "ItemMap";
+_unit linkItem "ItemCompass";
+_unit linkItem "ItemWatch";
+_unit linkItem "ItemRadio";
+
+comment "Set identity";
+_unit setFace "WhiteHead_10";
+_unit setSpeaker "male05gre";
+
+
+CSAT снайпер
+
+comment "Exported from Arsenal by [RMC] Chief";
+
+comment "Remove existing items";
+removeAllWeapons _unit;
+removeAllItems _unit;
+removeAllAssignedItems _unit;
+removeUniform _unit;
+removeVest _unit;
+removeBackpack _unit;
+removeHeadgear _unit;
+removeGoggles _unit;
+
+comment "Add containers";
+_unit forceAddUniform "U_O_T_Soldier_F";
+for "_i" from 1 to 2 do {_unit addItemToUniform "FirstAidKit";};
+for "_i" from 1 to 2 do {_unit addItemToUniform "HandGrenade";};
+_unit addVest "V_HarnessO_ghex_F";
+for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
+for "_i" from 1 to 2 do {_unit addItemToVest "9Rnd_45ACP_Mag";};
+for "_i" from 1 to 3 do {_unit addItemToVest "20Rnd_650x39_Cased_Mag_F";};
+_unit addHeadgear "H_HelmetSpecO_ghex_F";
+
+comment "Add weapons";
+_unit addWeapon "srifle_DMR_07_ghex_F";
+_unit addPrimaryWeaponItem "optic_DMS";
+_unit addWeapon "hgun_ACPC2_F";
+
+comment "Add items";
+_unit linkItem "ItemMap";
+_unit linkItem "ItemCompass";
+_unit linkItem "ItemWatch";
+_unit linkItem "ItemRadio";
+
+comment "Set identity";
+_unit setFace "WhiteHead_10";
+_unit setSpeaker "male05gre";
+
+CSAT пт
+
+comment "Exported from Arsenal by [RMC] Chief";
+
+comment "Remove existing items";
+removeAllWeapons _unit;
+removeAllItems _unit;
+removeAllAssignedItems _unit;
+removeUniform _unit;
+removeVest _unit;
+removeBackpack _unit;
+removeHeadgear _unit;
+removeGoggles _unit;
+
+comment "Add containers";
+_unit forceAddUniform "U_O_T_Soldier_F";
+for "_i" from 1 to 2 do {_unit addItemToUniform "FirstAidKit";};
+for "_i" from 1 to 2 do {_unit addItemToUniform "HandGrenade";};
+_unit addVest "V_HarnessO_ghex_F";
+for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
+for "_i" from 1 to 2 do {_unit addItemToVest "9Rnd_45ACP_Mag";};
+for "_i" from 1 to 5 do {_unit addItemToVest "30Rnd_45ACP_Mag_SMG_01";};
+_unit addBackpack "B_FieldPack_ghex_F";
+_unit addItemToBackpack "RPG32_HE_F";
+_unit addItemToBackpack "RPG32_F";
+_unit addHeadgear "H_HelmetSpecO_ghex_F";
+
+comment "Add weapons";
+_unit addWeapon "SMG_01_F";
+_unit addPrimaryWeaponItem "optic_ACO_grn";
+_unit addWeapon "launch_RPG32_ghex_F";
+_unit addWeapon "hgun_ACPC2_F";
+
+comment "Add items";
+_unit linkItem "ItemMap";
+_unit linkItem "ItemCompass";
+_unit linkItem "ItemWatch";
+_unit linkItem "ItemRadio";
+
+comment "Set identity";
+_unit setFace "WhiteHead_10";
+_unit setSpeaker "male05gre";
+
+CSAT медик
+
+comment "Exported from Arsenal by [RMC] Chief";
+
+comment "Remove existing items";
+removeAllWeapons _unit;
+removeAllItems _unit;
+removeAllAssignedItems _unit;
+removeUniform _unit;
+removeVest _unit;
+removeBackpack _unit;
+removeHeadgear _unit;
+removeGoggles _unit;
+
+comment "Add containers";
+_unit forceAddUniform "U_O_T_Soldier_F";
+for "_i" from 1 to 2 do {_unit addItemToUniform "FirstAidKit";};
+for "_i" from 1 to 2 do {_unit addItemToUniform "HandGrenade";};
+_unit addVest "V_HarnessO_ghex_F";
+for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
+for "_i" from 1 to 2 do {_unit addItemToVest "9Rnd_45ACP_Mag";};
+for "_i" from 1 to 5 do {_unit addItemToVest "30Rnd_65x39_caseless_green";};
+_unit addBackpack "B_FieldPack_ghex_F";
+_unit addItemToBackpack "Medikit";
+_unit addHeadgear "H_HelmetLeaderO_ghex_F";
+
+comment "Add weapons";
+_unit addWeapon "arifle_Katiba_C_F";
+_unit addPrimaryWeaponItem "optic_ACO_grn";
+_unit addWeapon "hgun_ACPC2_F";
+
+comment "Add items";
+_unit linkItem "ItemMap";
+_unit linkItem "ItemCompass";
+_unit linkItem "ItemWatch";
+_unit linkItem "ItemRadio";
+
+comment "Set identity";
+_unit setFace "WhiteHead_10";
+_unit setSpeaker "male05gre";
+
+

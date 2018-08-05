@@ -1,0 +1,303 @@
+Партизаны
+
+партизан автоматчик
+
+comment "Exported from Arsenal by [RMC] Chief";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "U_BG_Guerrilla_6_1";
+for "_i" from 1 to 2 do {this addItemToUniform "FirstAidKit";};
+this addVest "V_Chestrig_khk";
+for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+for "_i" from 1 to 5 do {this addItemToVest "30Rnd_556x45_Stanag";};
+this addHeadgear "H_Cap_grn";
+
+comment "Add weapons";
+this addWeapon "arifle_Mk20_plain_F";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+
+comment "Set identity";
+this setFace "WhiteHead_09";
+this setSpeaker "male05gre";
+
+
+
+партизан рахим + rco
+
+comment "Exported from Arsenal by [RMC] Chief";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "U_BG_Guerrilla_6_1";
+for "_i" from 1 to 2 do {this addItemToUniform "FirstAidKit";};
+this addVest "V_Chestrig_khk";
+for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+for "_i" from 1 to 4 do {this addItemToVest "10Rnd_762x54_Mag";};
+this addHeadgear "H_Watchcap_camo";
+
+comment "Add weapons";
+this addWeapon "srifle_DMR_01_F";
+this addPrimaryWeaponItem "optic_Hamr";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+
+comment "Set identity";
+this setFace "WhiteHead_09";
+this setSpeaker "male05gre";
+
+
+
+партизан пт
+
+comment "Exported from Arsenal by [RMC] Chief";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "U_BG_Guerrilla_6_1";
+for "_i" from 1 to 2 do {this addItemToUniform "FirstAidKit";};
+this addVest "V_Chestrig_khk";
+for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+for "_i" from 1 to 5 do {this addItemToVest "30Rnd_45ACP_Mag_SMG_01";};
+this addBackpack "B_AssaultPack_blk";
+this addItemToBackpack "RPG32_HE_F";
+this addItemToBackpack "RPG32_F";
+this addHeadgear "H_Watchcap_camo";
+
+comment "Add weapons";
+this addWeapon "SMG_01_F";
+this addWeapon "launch_RPG32_F";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+
+comment "Set identity";
+this setFace "WhiteHead_09";
+this setSpeaker "male05gre";
+
+
+
+партизан пулеметчик
+
+comment "Exported from Arsenal by [RMC] Chief";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "U_BG_Guerrilla_6_1";
+for "_i" from 1 to 2 do {this addItemToUniform "FirstAidKit";};
+this addVest "V_Chestrig_khk";
+for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+for "_i" from 1 to 2 do {this addItemToVest "150Rnd_762x54_Box";};
+this addHeadgear "H_Watchcap_camo";
+
+comment "Add weapons";
+this addWeapon "LMG_Zafir_F";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+
+comment "Set identity";
+this setFace "WhiteHead_09";
+this setSpeaker "male05gre";
+
+
+партизаг гп
+
+comment "Exported from Arsenal by [RMC] Chief";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "U_BG_Guerrilla_6_1";
+for "_i" from 1 to 2 do {this addItemToUniform "FirstAidKit";};
+this addVest "V_Chestrig_khk";
+for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+for "_i" from 1 to 5 do {this addItemToVest "30Rnd_556x45_Stanag";};
+for "_i" from 1 to 4 do {this addItemToVest "1Rnd_HE_Grenade_shell";};
+this addHeadgear "H_Watchcap_camo";
+
+comment "Add weapons";
+this addWeapon "arifle_Mk20_GL_plain_F";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+
+comment "Set identity";
+this setFace "WhiteHead_09";
+this setSpeaker "male05gre";
+
+
+
+партизан сапер
+
+comment "Exported from Arsenal by [RMC] Chief";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "U_BG_Guerrilla_6_1";
+for "_i" from 1 to 2 do {this addItemToUniform "FirstAidKit";};
+this addVest "V_Chestrig_khk";
+for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+for "_i" from 1 to 5 do {this addItemToVest "30Rnd_556x45_Stanag";};
+this addBackpack "B_TacticalPack_rgr";
+this addItemToBackpack "MineDetector";
+for "_i" from 1 to 2 do {this addItemToBackpack "APERSTripMine_Wire_Mag";};
+this addItemToBackpack "SLAMDirectionalMine_Wire_Mag";
+this addHeadgear "H_Watchcap_camo";
+
+comment "Add weapons";
+this addWeapon "arifle_Mk20_plain_F";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+
+comment "Set identity";
+this setFace "WhiteHead_09";
+this setSpeaker "male05gre";
+
+
+партизан медик
+
+comment "Exported from Arsenal by [RMC] Chief";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "U_BG_Guerrilla_6_1";
+for "_i" from 1 to 2 do {this addItemToUniform "FirstAidKit";};
+this addVest "V_Chestrig_khk";
+for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+for "_i" from 1 to 3 do {this addItemToVest "30Rnd_556x45_Stanag";};
+this addBackpack "B_TacticalPack_rgr";
+this addItemToBackpack "Medikit";
+this addHeadgear "H_Watchcap_camo";
+
+comment "Add weapons";
+this addWeapon "arifle_TRG20_F";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+
+comment "Set identity";
+this setFace "WhiteHead_09";
+this setSpeaker "male05gre";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,6 +1,6 @@
-private ["_WithGPS","_cstr","_localclassname","_classscript", "_myclass", "_sidedir", "_sidetext", "_bGiveWeapons", "_aClassSide", "_currentClass", "_i", "_magCount", "_tempBackpackItems", "_backpack"];
+private ["_WithGPS","_cstr","_localclassname","_classscript", "_myclass", "_sidedir", "_sidetext", "_bGiveWeapons", "_aClassSide", "_currentClass",
+ "_i", "_magCount", "_tempBackpackItems", "_backpack"];
 
-[player] call ace_medical_fnc_init; 
 player setDamage 0;
 ace_hearing_deafnessDV = 0;
 player setVariable ["ACE_hasEarPlugsin", false, true];
@@ -13,10 +13,12 @@ _WithGPS = _this select 1;
 	switch(defenderFaction) do {
 	  case 1: {dFactionName = "RHSUSAOCP"};
 	  case 2: {dFactionName = "RHSRUEMP"};
+		case 4: {dFactionName = "VT_BANDITS_D"};
 	};
 	switch(attackerFaction) do {
 	  case 1: {aFactionName = "RHSUSAOCP"};
 	  case 2: {aFactionName = "RHSRUEMP"};
+		case 4: {aFactionName = "VT_JANDARMES_A"};
 	};
 
 

@@ -2,17 +2,17 @@
 
 //private ["];
 
-// для будущих доработок, по аналогии с defendergearquality
+// РґР»СЏ Р±СѓРґСѓС‰РёС… РґРѕСЂР°Р±РѕС‚РѕРє, РїРѕ Р°РЅР°Р»РѕРіРёРё СЃ defendergearquality
 //attackeGearQuality = 0;
 
-// Фракция Ванилы
+// Р¤СЂР°РєС†РёСЏ Р’Р°РЅРёР»С‹
 if (attackerFaction == 1) then
 {
 	aClasses =
 	[
 	// 0:Description (same as file, same as STR_ in stringtable)
 	// 1:weapons string
-	// (в будущем) 2:атака\защита\все (0,1,2)
+	// (РІ Р±СѓРґСѓС‰РµРј) 2:Р°С‚Р°РєР°\Р·Р°С‰РёС‚Р°\РІСЃРµ (0,1,2)
 		["fighter","m4a1"],
 		["fighter3","m4a1bC"],
 		["fighter2","m16a4"],
@@ -36,7 +36,7 @@ if (defenderFaction == 1) then
 	[
 	// 0:Description (same as file, same as STR_ in stringtable)
 	// 1:weapons string
-	// (в будущем) 2:атака\защита\все (0,1,2)
+	// (РІ Р±СѓРґСѓС‰РµРј) 2:Р°С‚Р°РєР°\Р·Р°С‰РёС‚Р°\РІСЃРµ (0,1,2)
 		["fighter","m4a1"],
 		["fighter3","m4a1bC"],
 		["fighter2","m16a4"],
@@ -60,7 +60,7 @@ if (attackerFaction == 2) then
 	[
 	// 0:Description (same as file, same as STR_ in stringtable)
 	// 1:weapons string
-	// (в будущем) 2:атака\защита\все (0,1,2)
+	// (РІ Р±СѓРґСѓС‰РµРј) 2:Р°С‚Р°РєР°\Р·Р°С‰РёС‚Р°\РІСЃРµ (0,1,2)
 		["fighter","ak74m"],
 		["fighter2","ak103"],
 		["grenadier","ak74m-gp25"],
@@ -85,7 +85,7 @@ if (defenderFaction == 2) then
 	[
 	// 0:Description (same as file, same as STR_ in stringtable)
 	// 1:weapons string
-	// (в будущем) 2:атака\защита\все (0,1,2)
+	// (РІ Р±СѓРґСѓС‰РµРј) 2:Р°С‚Р°РєР°\Р·Р°С‰РёС‚Р°\РІСЃРµ (0,1,2)
 		["fighter","ak74m"],
 		["fighter2","ak103"],
 		["grenadier","ak74m-gp25"],
@@ -109,7 +109,7 @@ if (defenderFaction == 3) then
 	[
 	// 0:Description (same as file, same as STR_ in stringtable)
 	// 1:weapons string
-	// (в будущем) 2:атака\защита\все (0,1,2)
+	// (РІ Р±СѓРґСѓС‰РµРј) 2:Р°С‚Р°РєР°\Р·Р°С‰РёС‚Р°\РІСЃРµ (0,1,2)
 		["fighter","akm"],
 		["officer","akm"],
 //		["grenadier","ak74m-gp25"],
@@ -131,7 +131,7 @@ if (attackerFaction == 3) then
 	[
 	// 0:Description (same as file, same as STR_ in stringtable)
 	// 1:weapons string
-	// (в будущем) 2:атака\защита\все (0,1,2)
+	// (РІ Р±СѓРґСѓС‰РµРј) 2:Р°С‚Р°РєР°\Р·Р°С‰РёС‚Р°\РІСЃРµ (0,1,2)
 		["fighter","akm"],
 		["officer","akm"],
 		["support","akm"],
@@ -141,3 +141,35 @@ if (attackerFaction == 3) then
 		["engineer","akm, wiremine"]
 	];
 };	                        
+
+if (defenderFaction == 4) then
+{
+	dClasses =
+	[
+	// 0:Description (same as file, same as STR_ in stringtable)
+	// 1:weapons string
+	// (РІ Р±СѓРґСѓС‰РµРј) 2:Р°С‚Р°РєР°\Р·Р°С‰РёС‚Р°\РІСЃРµ (0,1,2)
+		["fighter","akm"],
+		["grenadier","ak74m-gp25"],
+		["medic","ak74m"],
+		["launcher","ak74m, rpg7 pg7vl"],
+		["machinegunner","pkp"],
+		["sniper","svdm"]
+	];
+};	    
+
+if (attackerFaction == 4) then
+{
+	aClasses =
+	[
+	// 0:Description (same as file, same as STR_ in stringtable)
+	// 1:weapons string
+	// (РІ Р±СѓРґСѓС‰РµРј) 2:Р°С‚Р°РєР°\Р·Р°С‰РёС‚Р°\РІСЃРµ (0,1,2)
+		["fighter","akm"],
+		["grenadier","ak74m-gp25"],
+		["medic","ak74m"],
+		["launcher","ak74m, rpg7 pg7vl"],
+		["machinegunner","pkp"],
+		["sniper","svdm"]
+	];
+};	    

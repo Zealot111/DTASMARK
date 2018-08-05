@@ -1,0 +1,245 @@
+NATO c MX
+
+comment "Exported from Arsenal by [RMC] Chief";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "U_B_CTRG_Soldier_3_F";
+for "_i" from 1 to 2 do {this addItemToUniform "FirstAidKit";};
+for "_i" from 1 to 2 do {this addItemToUniform "HandGrenade";};
+this addVest "V_PlateCarrier1_rgr";
+for "_i" from 1 to 5 do {this addItemToVest "30Rnd_65x39_caseless_mag";};
+for "_i" from 1 to 2 do {this addItemToVest "16Rnd_9x21_Mag";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+this addHeadgear "H_HelmetB_light";
+
+comment "Add weapons";
+this addWeapon "arifle_MX_Black_F";
+this addPrimaryWeaponItem "optic_Aco";
+this addWeapon "hgun_P07_F";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+
+comment "Set identity";
+this setFace "WhiteHead_10";
+this setSpeaker "male05gre";
+
+NATO c ПУЛ
+
+comment "Exported from Arsenal by [RMC] Chief";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "U_B_CTRG_Soldier_3_F";
+for "_i" from 1 to 2 do {this addItemToUniform "FirstAidKit";};
+for "_i" from 1 to 2 do {this addItemToUniform "HandGrenade";};
+this addVest "V_PlateCarrier1_rgr";
+for "_i" from 1 to 2 do {this addItemToVest "16Rnd_9x21_Mag";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+for "_i" from 1 to 2 do {this addItemToVest "200Rnd_65x39_cased_Box";};
+this addHeadgear "H_HelmetB_light";
+
+comment "Add weapons";
+this addWeapon "LMG_Mk200_F";
+this addPrimaryWeaponItem "optic_Aco";
+this addWeapon "hgun_P07_F";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+
+comment "Set identity";
+this setFace "WhiteHead_10";
+this setSpeaker "male05gre";
+
+NATO с ГП
+
+comment "Exported from Arsenal by [RMC] Chief";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "U_B_CTRG_Soldier_3_F";
+for "_i" from 1 to 2 do {this addItemToUniform "FirstAidKit";};
+for "_i" from 1 to 2 do {this addItemToUniform "HandGrenade";};
+this addVest "V_PlateCarrier1_rgr";
+for "_i" from 1 to 2 do {this addItemToVest "16Rnd_9x21_Mag";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+for "_i" from 1 to 5 do {this addItemToVest "30Rnd_65x39_caseless_mag";};
+for "_i" from 1 to 4 do {this addItemToVest "1Rnd_HE_Grenade_shell";};
+for "_i" from 1 to 2 do {this addItemToVest "1Rnd_SmokeGreen_Grenade_shell";};
+this addHeadgear "H_HelmetB_light";
+
+comment "Add weapons";
+this addWeapon "arifle_MX_GL_Black_F";
+this addPrimaryWeaponItem "optic_Aco";
+this addWeapon "hgun_P07_F";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+
+comment "Set identity";
+this setFace "WhiteHead_10";
+this setSpeaker "male05gre";
+
+NATO снайпер
+
+comment "Exported from Arsenal by [RMC] Chief";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "U_B_CTRG_Soldier_3_F";
+for "_i" from 1 to 2 do {this addItemToUniform "FirstAidKit";};
+for "_i" from 1 to 2 do {this addItemToUniform "HandGrenade";};
+this addVest "V_Chestrig_oli";
+for "_i" from 1 to 2 do {this addItemToVest "16Rnd_9x21_Mag";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+for "_i" from 1 to 3 do {this addItemToVest "20Rnd_762x51_Mag";};
+this addHeadgear "H_Cap_usblack";
+
+comment "Add weapons";
+this addWeapon "srifle_EBR_F";
+this addPrimaryWeaponItem "optic_DMS";
+this addWeapon "hgun_P07_F";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+
+comment "Set identity";
+this setFace "WhiteHead_10";
+this setSpeaker "male05gre";
+
+NATO c гранатометом
+
+comment "Exported from Arsenal by [RMC] Chief";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "U_B_CTRG_Soldier_3_F";
+for "_i" from 1 to 2 do {this addItemToUniform "FirstAidKit";};
+for "_i" from 1 to 2 do {this addItemToUniform "HandGrenade";};
+this addVest "V_PlateCarrier1_rgr";
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+for "_i" from 1 to 5 do {this addItemToVest "30Rnd_65x39_caseless_mag";};
+for "_i" from 1 to 2 do {this addItemToVest "16Rnd_9x21_Mag";};
+this addBackpack "B_AssaultPack_khk";
+this addItemToBackpack "NLAW_F";
+this addHeadgear "H_HelmetB_light";
+this addGoggles "G_Combat_Goggles_tna_F";
+
+comment "Add weapons";
+this addWeapon "arifle_MXC_Black_F";
+this addPrimaryWeaponItem "optic_Aco";
+this addWeapon "launch_NLAW_F";
+this addWeapon "hgun_P07_F";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+
+comment "Set identity";
+this setFace "WhiteHead_10";
+this setSpeaker "male05gre";
+
+NATO медик
+
+comment "Exported from Arsenal by [RMC] Chief";
+
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+comment "Add containers";
+this forceAddUniform "U_B_CTRG_Soldier_3_F";
+for "_i" from 1 to 2 do {this addItemToUniform "FirstAidKit";};
+for "_i" from 1 to 2 do {this addItemToUniform "HandGrenade";};
+this addVest "V_PlateCarrier1_rgr";
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+for "_i" from 1 to 5 do {this addItemToVest "30Rnd_65x39_caseless_mag";};
+this addBackpack "B_AssaultPack_khk";
+this addHeadgear "H_Booniehat_oli";
+this addGoggles "G_Spectacles_Tinted";
+
+comment "Add weapons";
+this addWeapon "arifle_MXC_Black_F";
+this addPrimaryWeaponItem "optic_Aco";
+this addWeapon "hgun_P07_F";
+
+comment "Add items";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+
+comment "Set identity";
+this setFace "WhiteHead_10";
+this setSpeaker "male05gre";
+
+
+
+
+

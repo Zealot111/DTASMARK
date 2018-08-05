@@ -1,0 +1,227 @@
+Терорист автоматчик
+
+comment "Set identity";
+_unit setFace "WhiteHead_09";
+_unit setSpeaker "male05gre";
+
+
+Терорист пулеметчик
+
+
+comment "Set identity";
+_unit setFace "WhiteHead_09";
+_unit setSpeaker "male05gre";
+
+
+Терорист ПТ
+
+comment "Exported from Arsenal by [RMC] Chief";
+
+comment "Remove existing items";
+removeAllWeapons _unit;
+removeAllItems _unit;
+removeAllAssignedItems _unit;
+removeUniform _unit;
+removeVest _unit;
+removeBackpack _unit;
+removeHeadgear _unit;
+removeGoggles _unit;
+
+comment "Add containers";
+_unit forceAddUniform "U_I_G_Story_Protagonist_F";
+for "_i" from 1 to 2 do {_unit addItemToUniform "FirstAidKit";};
+for "_i" from 1 to 2 do {_unit addItemToUniform "11Rnd_45ACP_Mag";};
+_unit addVest "V_Chestrig_rgr";
+for "_i" from 1 to 2 do {_unit addItemToVest "HandGrenade";};
+for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
+for "_i" from 1 to 5 do {_unit addItemToVest "30Rnd_9x21_Mag_SMG_02";};
+_unit addBackpack "B_FieldPack_blk";
+_unit addItemToBackpack "RPG32_F";
+_unit addItemToBackpack "RPG32_HE_F";
+_unit addHeadgear "H_ShemagOpen_tan";
+_unit addGoggles "G_Lowprofile";
+
+comment "Add weapons";
+_unit addWeapon "SMG_02_F";
+_unit addWeapon "launch_RPG32_F";
+_unit addWeapon "hgun_Pistol_heavy_01_F";
+
+comment "Add items";
+_unit linkItem "ItemMap";
+_unit linkItem "ItemCompass";
+_unit linkItem "ItemWatch";
+_unit linkItem "ItemRadio";
+
+comment "Set identity";
+_unit setFace "WhiteHead_09";
+_unit setSpeaker "male05gre";
+
+
+Терорист ГП
+
+comment "Exported from Arsenal by [RMC] Chief";
+
+comment "Remove existing items";
+removeAllWeapons _unit;
+removeAllItems _unit;
+removeAllAssignedItems _unit;
+removeUniform _unit;
+removeVest _unit;
+removeBackpack _unit;
+removeHeadgear _unit;
+removeGoggles _unit;
+
+comment "Add containers";
+_unit forceAddUniform "U_I_G_Story_Protagonist_F";
+for "_i" from 1 to 2 do {_unit addItemToUniform "FirstAidKit";};
+for "_i" from 1 to 2 do {_unit addItemToUniform "11Rnd_45ACP_Mag";};
+_unit addVest "V_Chestrig_rgr";
+for "_i" from 1 to 2 do {_unit addItemToVest "HandGrenade";};
+for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
+for "_i" from 1 to 5 do {_unit addItemToVest "30Rnd_65x39_caseless_green";};
+for "_i" from 1 to 4 do {_unit addItemToVest "1Rnd_HE_Grenade_shell";};
+_unit addHeadgear "H_ShemagOpen_tan";
+_unit addGoggles "G_Lowprofile";
+
+comment "Add weapons";
+_unit addWeapon "arifle_Katiba_GL_F";
+_unit addWeapon "hgun_Pistol_heavy_01_F";
+
+comment "Add items";
+_unit linkItem "ItemMap";
+_unit linkItem "ItemCompass";
+_unit linkItem "ItemWatch";
+_unit linkItem "ItemRadio";
+
+comment "Set identity";
+_unit setFace "WhiteHead_09";
+_unit setSpeaker "male05gre";
+
+Терорист медик
+
+comment "Exported from Arsenal by [RMC] Chief";
+
+comment "Remove existing items";
+removeAllWeapons _unit;
+removeAllItems _unit;
+removeAllAssignedItems _unit;
+removeUniform _unit;
+removeVest _unit;
+removeBackpack _unit;
+removeHeadgear _unit;
+removeGoggles _unit;
+
+comment "Add containers";
+_unit forceAddUniform "U_I_G_Story_Protagonist_F";
+for "_i" from 1 to 2 do {_unit addItemToUniform "FirstAidKit";};
+for "_i" from 1 to 2 do {_unit addItemToUniform "11Rnd_45ACP_Mag";};
+_unit addVest "V_Chestrig_rgr";
+for "_i" from 1 to 2 do {_unit addItemToVest "HandGrenade";};
+for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
+for "_i" from 1 to 5 do {_unit addItemToVest "30Rnd_9x21_Mag";};
+_unit addBackpack "B_FieldPack_blk";
+_unit addItemToBackpack "Medikit";
+_unit addHeadgear "H_ShemagOpen_tan";
+_unit addGoggles "G_Lowprofile";
+
+comment "Add weapons";
+_unit addWeapon "hgun_PDW2000_F";
+_unit addWeapon "hgun_Pistol_heavy_01_F";
+
+comment "Add items";
+_unit linkItem "ItemMap";
+_unit linkItem "ItemCompass";
+_unit linkItem "ItemWatch";
+_unit linkItem "ItemRadio";
+
+comment "Set identity";
+_unit setFace "WhiteHead_09";
+_unit setSpeaker "male05gre";
+
+Терорист снайпер
+
+comment "Exported from Arsenal by [RMC] Chief";
+
+comment "Remove existing items";
+removeAllWeapons _unit;
+removeAllItems _unit;
+removeAllAssignedItems _unit;
+removeUniform _unit;
+removeVest _unit;
+removeBackpack _unit;
+removeHeadgear _unit;
+removeGoggles _unit;
+
+comment "Add containers";
+_unit forceAddUniform "U_I_G_Story_Protagonist_F";
+for "_i" from 1 to 2 do {_unit addItemToUniform "FirstAidKit";};
+for "_i" from 1 to 2 do {_unit addItemToUniform "11Rnd_45ACP_Mag";};
+_unit addVest "V_Chestrig_blk";
+for "_i" from 1 to 2 do {_unit addItemToVest "HandGrenade";};
+for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
+for "_i" from 1 to 4 do {_unit addItemToVest "10Rnd_762x54_Mag";};
+_unit addHeadgear "H_Shemag_olive";
+_unit addGoggles "G_Squares_Tinted";
+
+comment "Add weapons";
+_unit addWeapon "srifle_DMR_01_F";
+_unit addPrimaryWeaponItem "optic_Arco";
+_unit addWeapon "hgun_Pistol_heavy_01_F";
+
+comment "Add items";
+_unit linkItem "ItemMap";
+_unit linkItem "ItemCompass";
+_unit linkItem "ItemWatch";
+_unit linkItem "ItemRadio";
+
+comment "Set identity";
+_unit setFace "WhiteHead_09";
+_unit setSpeaker "male05gre";
+
+Терорист подрывник
+comment "Exported from Arsenal by [RMC] Chief";
+
+comment "Remove existing items";
+removeAllWeapons _unit;
+removeAllItems _unit;
+removeAllAssignedItems _unit;
+removeUniform _unit;
+removeVest _unit;
+removeBackpack _unit;
+removeHeadgear _unit;
+removeGoggles _unit;
+
+comment "Add containers";
+_unit forceAddUniform "U_I_G_Story_Protagonist_F";
+for "_i" from 1 to 2 do {_unit addItemToUniform "FirstAidKit";};
+for "_i" from 1 to 2 do {_unit addItemToUniform "11Rnd_45ACP_Mag";};
+_unit addVest "V_Chestrig_khk";
+for "_i" from 1 to 2 do {_unit addItemToVest "HandGrenade";};
+for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
+for "_i" from 1 to 3 do {_unit addItemToVest "30Rnd_556x45_Stanag";};
+_unit addBackpack "B_FieldPack_blk";
+_unit addItemToBackpack "MineDetector";
+_unit addItemToBackpack "SLAMDirectionalMine_Wire_Mag";
+_unit addItemToBackpack "DemoCharge_Remote_Mag";
+for "_i" from 1 to 2 do {_unit addItemToBackpack "APERSTripMine_Wire_Mag";};
+_unit addHeadgear "H_ShemagOpen_khk";
+_unit addGoggles "G_Squares_Tinted";
+
+comment "Add weapons";
+_unit addWeapon "arifle_TRG20_F";
+_unit addWeapon "hgun_Pistol_heavy_01_F";
+
+comment "Add items";
+_unit linkItem "ItemMap";
+_unit linkItem "ItemCompass";
+_unit linkItem "ItemWatch";
+_unit linkItem "ItemRadio";
+
+comment "Set identity";
+_unit setFace "WhiteHead_09";
+_unit setSpeaker "male05gre";
+
+
+
+
+

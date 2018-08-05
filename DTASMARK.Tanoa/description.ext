@@ -299,22 +299,22 @@ class params
 		default = 0;
 	};
 
-// при изменении не забудь добавить в assigngear.sqf
+//  assigngear.sqf
 	class AttackerFactionParam
 	{
 		title = $STR_AttackerFactionParam;
-		values[] = {1, 2};
-		texts[] = {$STR_RHS_US, $STR_RHS_RU};
-		default = 2;
+		values[] = {4};
+		texts[] = {"STR_CHIEF_JANDARMES"};
+		default = 4;
 	};
 
-// при изменении не забудь добавить в assigngear.sqf
+//  assigngear.sqf
 	class DefenderFactionParam 
 	{
 		title = $STR_DefenderFactionParam;
-		values[] = {1, 2};
-		texts[] = {$STR_RHS_US, $STR_RHS_RU};
-		default = 1;
+		values[] = {4};
+		texts[] = {"STR_CHIEF_BANDITS"};
+		default = 4;
 	};
 
 	class WithGPS
