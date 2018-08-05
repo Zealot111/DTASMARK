@@ -253,7 +253,7 @@ vehArr = [];
 markerAreaArray = [];
 totalMarkerArea = 0;
 _j = 0;
-_markerPrefixCharArray = toArray "mrkZone_";
+_markerPrefixCharArray = toArray "mrkZone";
 _maxi = count _markerPrefixCharArray;
 {
 	_markerCharArray = toArray _x;

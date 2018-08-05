@@ -8,7 +8,7 @@ diag_log text "";
 tf_no_auto_long_range_radio = true;
 tf_same_sw_frequencies_for_side = true;
 
-_markerPrefixCharArray = toArray "mrkZone_";
+_markerPrefixCharArray = toArray "mrkZone";
 _maxi = count _markerPrefixCharArray;
 {
 	_markerCharArray = toArray _x;
