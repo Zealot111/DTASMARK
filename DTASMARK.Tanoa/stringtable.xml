@@ -1,0 +1,1166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="DTAS">
+  <Package name="Mission">
+	<Container name="Mods">
+		<Key ID="STR_MissingMods">
+			<English>Server is running the following mods, but you are not:</English>
+		</Key>
+		<Key ID="STR_MissingTFRMod">
+			<English>Server is running Task Force Radio Arrowhead mod, but you are not!</English>
+			<Russian>На сервере установлен мод Task Force Radio Arrowhead, но у вас его не обнаружено</Russian>
+		</Key>
+		<Key ID="STR_InstallPWS">
+			<English>Install Play withSIX (play.withsix.com) to install, update and run required mods.</English>
+			<Russian>Установите Play withSIX (play.withsix.com), обновите и запустите нужные моды.</Russian>
+		</Key>
+	</Container>
+	<Container name="CursorNames">
+		<Key ID="STR_Gunner">
+			<English>Gunner</English>
+			<Russian>Стрелок</Russian>
+		</Key>
+		<Key ID="STR_Turret">
+			<English>Turret</English>
+			<Russian>Туррель</Russian>
+		</Key>
+		<Key ID="STR_Driver">
+			<English>Driver</English>
+			<Russian>Водитель</Russian>
+		</Key>
+		<Key ID="STR_Pilot">
+			<English>Pilot</English>
+			<Russian>Пилот</Russian>
+		</Key>
+		<Key ID="STR_Commander">
+			<English>Commander</English>
+			<Russian>Коммандующий</Russian>
+		</Key>
+		<Key ID="STR_CoPilot">
+			<English>Co-Pilot</English>
+			<Russian>Второй пилот</Russian>
+		</Key>
+		<Key ID="STR_Cargo">
+			<English>Cargo</English>
+			<Russian>Грузовой отсек</Russian>
+		</Key>
+		<Key ID="STR_Empty">
+			<English>Empty</English>
+			<Russian>Пусто</Russian>
+		</Key>
+		<Key ID="STR_EmptyCargoSeats">
+			<English>Empty Cargo Seats</English>
+			<Russian>Пустые места в грузовом отсеке</Russian>
+		</Key>
+	</Container>
+	<Container name="Briefing">
+		<Key ID="STR_BriefingDescription">
+			<English>Dynamic Take And Secure by [TF] (based on Gal Zohar DTAS mission): Randomized round-based attack/defend PvP mission with no respawns.</English>
+			<Russian>Динамический захват и зачистка от [TF] (на основе DTAS от Gal Zohar) - Случайная атака и защита. TVT-DTAS Миссия, основанная на раундах без респаунов.</Russian>
+		</Key>
+		<Key ID="STR_DTAS">
+			<English>RBC[TF]DTAS</English>
+			<Russian>RBC[TF]DTAS</Russian>
+		</Key>
+		<Key ID="STR_GalZohar">
+			<English>Gal Zohar</English>
+			<Russian>Галь Зохар</Russian>
+		</Key>
+		<Key ID="STR_Credits">
+			<English>Credits</English>
+			<Russian>Титры:</Russian>
+		</Key>
+		<Key ID="STR_Credits1">
+			<English>Mission by [TF]</English>
+			<Russian>Миссия от [TF]</Russian>
+		</Key>
+		<Key ID="STR_Credits2">
+			<English>Inspired by DTAS (Dynamic Take And Secure) of Gal Zohar [TF] team created DTAS for internal training sessions and public RBC games.</English>
+			<Russian>Под вдохновением миссии DTAS (Dynamic Take And Secure) от Gal Zohar отряд [TF] создал свою версию TFDTAS для тренировок и публичных игр RBC.</Russian>
+		</Key>
+		<Key ID="STR_Credits3">
+			<English>[TF]</English>
+			<Russian>[TF]</Russian>
+		</Key>
+		<Key ID="STR_Spectating">
+			<English>Spectating</English>
+			<Russian>Наблюдение</Russian>
+		</Key>
+		<Key ID="STR_Spectating1">
+			<English>Spectating is possible for all dead players and players who join while a round is in progress.</English>
+			<Russian>Наблюдать могут мертвые и те, кто присоединились после начала раунда.</Russian>
+		</Key>
+		<Key ID="STR_Spectating2">
+			<English>Switch between player cameras using the forward and backward keys (Default 'w' and 's').</English>
+			<Russian>Переключайтесь между камерами игроков с помощью кнопок вперед и назад (Обычно 'w' и 's').</Russian>
+		</Key>
+		<Key ID="STR_Spectating3">
+			<English>You can press the lean keys (default 'q' or 'e') to exit the spectator script and change your weapon loadout.</English>
+			<Russian>Чтобы выйти из режима наблюдения и выбрать другую раскладку, нажмите кнопки наклона (обычно 'q' или 'e').</Russian>
+		</Key>
+		<Key ID="STR_Spectating4">
+			<English>Use the action menu on the yellow cinderblocks in order to resume spectating.</English>
+			<Russian>Используетй меню действий на желтом ящике, чтобы вернуться в режим наблюдателя.</Russian>
+		</Key>
+		<Key ID="STR_Equipment">
+			<English>Equipment</English>
+			<Russian>Снаряжение</Russian>
+		</Key>
+		<Key ID="STR_Equipment1">
+			<English>Select your equipment using the action menu on an ammo crate. Weapons and ammunition will be given once round starts.</English>
+			<Russian>Выберите снаряжение, используя action menu на ящике боеприпасов. Оружие и боеприпасы будут выданны с началом раунда.</Russian>
+		</Key>
+		<Key ID="STR_Equipment2">
+			<English>Attackers and defenders have different loadout options. When you play as attack (or defense), your default loadout will be the last loadout you selected when you last played on attack (or defense).</English>
+			<Russian>Состав доступных слотов атакующих и обороняющихся отличается. Вашим классом по-умолчанию будет последний использованный класс за эту сторону.</Russian>
+		</Key>
+		<Key ID="STR_LastPlayersCountdown">
+			<English>Last players countdown</English>
+			<Russian>Отcчет для последних игроков</Russian>
+		</Key>
+		<Key ID="STR_LastPlayersCountdown1">
+			<English>When only 1/10 or less of the attacking force are left alive, or when only 1 attacker is left alive, time limit will be cut down to %1 seconds. Attackers will be notified, but defenders will only find out once the time runs out and their mission is successful.</English>
+			<Russian>Когда в живых останется 10% или меньше атакующей команды, или только один атакующий жив, ограничение времени будет уменьшенно до %1 секунд. Атакующие будут оповещены, но защитники узнают только тогда, когда время закончится.</Russian>
+		</Key>
+		<Key ID="STR_RoundSystem">
+			<English>Round System</English>
+			<Russian>Система раунда</Russian>
+		</Key>
+		<Key ID="STR_RoundSystem1">
+			<English>Each round is limited %1 minutes (possibly cut short by last players countdown). Dead players will be sent to a remote location until next round starts. Attack and defense teams will switch roles after the first round and then every 2 rounds. The objective position will be changed every 2 rounds, so you always attack and defend each zone once.</English>
+			<Russian>Каждый раунд ограничен %1 минутами (время может быть уменьшено при потерях атакующих более 90%). Мертвые игроки будут отправлены на удаленные места до окончания раунда. Команды атаки и защиты поменяются ролями(сторонами) после первого раунда и каждые два раунда. Место задания будет измененно каждые два раунда, так что вы атакуете и защищяете каждую зону по разу.</Russian>
+		</Key>
+		<Key ID="STR_CaptureSystem">
+			<English>Capture System</English>
+			<Russian>Система захвата</Russian>
+		</Key>
+		<Key ID="STR_CaptureSystem1">
+			<English>Capture speed is slowest when attackers only have 1 more man than defenders, and lasts 60 seconds. Capture speed is increased significantly as attackers outnumber the defenders in the zone by a greater margin, but is never faster than 20 seconds capture time. There is no notification of capture progress, so both teams must verify that the zone is clear of enemies if they wish to ensure their victory. You must be outside of vehicles and above sea level to capture/hold the zone.</English>
+			<Russian>Скорость захвата меньше, если атакующие имеют на одного человека больше чем защитники, и продолжается всего 60 секунд. Скорость захвата увеличивается соотносительно по мере того когда атакующих больше чем защитников в зоне, но не быстрее чем 20 секунд. Тут нет оповещения о прогрессе захвата, так что обоим команда нужно убедится что зона чиста от противника. Необходимо быть вне транспорта и над вотер-линией чтоб произошел захват.</Russian>
+		</Key>
+		<Key ID="STR_Insertion">
+			<English>Insertion</English>
+			<Russian>Вторжение</Russian>
+		</Key>
+		<Key ID="STR_Insertion1">
+			<English>Using the action menu of the yellow cinderblocks, an attacker squad leader will choose their insertion method and location, at least %1 meters away from the objective, and can then click ready. Round will starts once all squads with enough squad members are ready.</English>
+			<Russian>Используя меню действий на желтом ящике, командир отряда выбирает технику и начальную позицию для вторжения. Позиция для вторжения должны быть выбрана на расстоянии не менее %1 метра от цели. Затем нажмите 'Готов'. Раунд начнется после готовности всех отрядов.</Russian>
+		</Key>
+		<Key ID="STR_Insertion2">
+			<English>Number of players required depends on the number of players on the server. If you do not have enough squad memebers, your squad leader will not have an option to choose insertion method and position.</English>
+			<Russian>Кол-во требуемых игроков зависит от количества игроков на сервере. Если у Вас мало членов отряда, командир отряда не сможет выбрать технику и позицию для начала вторжения.</Russian>
+		</Key>
+		<Key ID="STR_Insertion3">
+			<English>A default jeep insertion location will be selected automatically and used if none were chosen after %2 seconds as well as for squads who did not have enough squad members.</English>
+			<Russian>Позиция по-умолчанию для вторжения на джипах будет выбрана автоматически, если командир не выберет позицию для атаки после %2 секунд или в отряде не будет достаточного количества бойцов.</Russian>
+		</Key>
+		<Key ID="STR_Insertion4">
+			<English>Drivers will be assigned to vehicles based on each player's preference, which can be set by using the action menu on the yellow cinderblocks.</English>
+			<Russian>Водитель будут назначены на технику в зависимости от предпочтений игроков (можно выбрать желание быть или не быть водителем с желтого ящика).</Russian>
+		</Key>
+		<Key ID="STR_Mission">
+			<English>Mission</English>
+			<Russian>Миссия</Russian>
+		</Key>
+		<Key ID="STR_Mission1">
+			<English>Attackers should capture the</English>
+			<Russian>Атакующие должны захватить</Russian>
+		</Key>
+		<Key ID="STR_Mission2">
+			<English>objective area</English>
+			<Russian>зону задания</Russian>
+		</Key>
+		<Key ID="STR_Mission3">
+			<English>from the defenders before time runs out (%1 minutes), while defenders need to prevent them from completing their mission. Win at least %2 out of %3 times and at least 2 rounds more than the enemy team to win the entire game!</English>
+			<Russian>у защищающих до того как время (%1 минут) истечет ,в то время как защищающие должны предотвратить захват. Выиграть %2 из %3 раз и хотя бы на 2 раунда больше, чем противник, чтобы победить в игре!</Russian>
+		</Key>
+		<Key ID="STR_Mission4">
+			<English>from the defenders before time runs out (%1 minutes), while defenders need to prevent them from completing their mission. Win at least %2 out of %3 times to win the entire game! (tournament version)</English>
+			<Russian>у защищающих до того как время (%1 минут) истечет ,в то время как защищающие должны предотвратить захват. Выиграть %2 из %3 раундов, чтобы победить в игре! (турнирный вариант)</Russian>
+		</Key>
+		<Key ID="STR_Squads">
+			<English>Squad Management</English>
+			<Russian>Менеджемент отряда</Russian>
+		</Key>
+		<Key ID="STR_Squads1">
+			<English>Press your "Team Switch" key (default 'u') and then use your mousewheel to manage squads.</English>
+			<Russian>Нажмите кнопку "Переключение отряда" (по-умолчанию 'u'), а затем используйте колесо прокрутки мыши для назначения отряда.</Russian>
+		</Key>
+		<Key ID="STR_Squads2">
+			<English>You can join a squad, as well as lock and unlock your squad (prevent or allow joining of new squad members), kick squad members and promote a new squad leader. You can also leave your squad in order to create a new one.</English>
+			<Russian>Вы можете присоединиться к отряду, а также закрыть или открыть свой отряд (на доступ для присоединениях других игроков), исключить члена отряда или проголосовать за командира. Также вы можете покинуть отряд и создать новый.</Russian>
+		</Key>
+		<Key ID="STR_Squads3">
+			<English>Player markers have different colors depending on their squad. Your squad leader is orange. You are red (or orange if you are the squad leader). Your squad members are green. Everyone else are blue.</English>
+			<Russian>Маркеры на игроков имеют различные цвета в зависимости от отряда. Ваш лидер отряда обозначен оранжевым цветом. Ваш цвет красный (или оранжевый, если вы командир). Бойцы вашего отряда обозначены зеленым. Остальные союзные бойцы обозначены синим.</Russian>
+		</Key>
+	</Container>
+	<Container name="General">
+		<Key ID="STR_Yes">
+			<English>Yes</English>
+			<Russian>Да</Russian>
+		</Key>
+		<Key ID="STR_No">
+			<English>No</English>
+			<Russian>Нет</Russian>
+		</Key>
+		<Key ID="STR_Enabled">
+			<English>Enabled</English>
+			<Russian>Включено</Russian>
+		</Key>
+		<Key ID="STR_Disabled">
+			<English>Disabled</English>
+			<Russian>Выключено</Russian>
+		</Key>
+		<Key ID="STR_TKMessage">
+			<English>%1 killed a teammate!</English>
+			<Russian>%1 убил союзника!</Russian>
+		</Key>
+		<Key ID="STR_UnStuck">
+			<English>Un-Stuck</English>
+			<Russian>Рассредоточиться по зоне</Russian>
+		</Key>
+	</Container>
+	<Container name="Parameters">
+		<Key ID="STR_BestOfX">
+			<English>Best of X Rounds</English>
+			<Russian>Лучший из Х раундов</Russian>
+		</Key>
+		<Key ID="STR_USAattack">
+			<English>Who attacks?</English>
+			<Russian>Кто атакует?</Russian>
+		</Key>
+		<Key ID="STR_Nightvision">
+			<English>Nightvision</English>
+			<Russian>ночное видение</Russian>
+		</Key>
+		<Key ID="STR_AttackersOnly">
+			<English>Attackers Only</English>
+			<Russian>Только атакующие</Russian>
+		</Key>
+		<Key ID="STR_Everyone">
+			<English>Everyone</English>
+			<Russian>Все</Russian>
+		</Key>
+		<Key ID="STR_Nobody">
+			<English>Nobody</English>
+			<Russian>Никто</Russian>
+		</Key>
+		<Key ID="STR_NightDay">
+			<English>Night/Day</English>
+			<Russian>Ночь/День</Russian>
+		</Key>
+		<Key ID="STR_Day">
+			<English>Day</English>
+			<Russian>День</Russian>
+		</Key>
+		<Key ID="STR_FullMoon">
+			<English>Full Moon</English>
+		</Key>
+		<Key ID="STR_Moon34">
+			<English>3/4 Moon</English>
+			<Russian>3/4 Луны</Russian>
+		</Key>
+		<Key ID="STR_Moon12">
+			<English>1/2 Moon</English>
+			<Russian>1/2 Луны</Russian>
+		</Key>
+		<Key ID="STR_Moon14">
+			<English>1/4 Moon</English>
+			<Russian>1/4 Луны</Russian>
+		</Key>
+		<Key ID="STR_Clouds">
+			<English>Clouds</English>
+			<Russian>Облачно</Russian>
+		</Key>
+		<Key ID="STR_Fog">
+			<English>Fog</English>
+			<English>Туман</English>
+		</Key>
+		// 1.13tf8
+		<Key ID="STR_Rain">
+			<English>Rain</English>
+			<English>Дождь</English>
+		</Key>
+		<Key ID="STR_NightWeapons">
+			<English>Night Vision Weapons</English>
+			<Russian>Оружие с ночным видинием</Russian>
+		</Key>
+		<Key ID="STR_PlanningTimeLimit">
+			<English>Attacker Planning Time Limit (seconds)</English>
+			<Russian>Время составления плана для атакующих (секунды)</Russian>
+		</Key>
+		<Key ID="STR_FirstRoundPlanningTimeLimit">
+			<English>First Round Attacker Planning Time Limit (seconds)</English>
+			<Russian>Время планирования атакующими в первом раунде (секунды)</Russian>
+		</Key>
+		<Key ID="STR_RoundTimeLimit">
+			<English>Round Time Limit (minutes)</English>
+			<Russian>Ограничение времени на раунд (минуты)</Russian>
+		</Key>
+		<Key ID="STR_LastPlayersCountdownSeconds">
+			<English>Last Players Countdown (seconds)</English>
+			<Russian>Отсчет времени для последних игроков (секунды)</Russian>
+		</Key>
+		<Key ID="STR_AFKKillTime">
+			<English>Kill AFK Players After X Seconds</English>
+			<Russian>Убить АФК игроков через Х секунд</Russian>
+		</Key>
+		<Key ID="STR_MarkerNameLength">
+			<English>Marker Name Length (letters)</English>
+			<Russian>Длина названия маркера (Буквы)</Russian>
+		</Key>
+		<Key ID="STR_NoMarkerNames">
+			<English>No marker names</English>
+			<Russian>Маркеры без названий</Russian>
+		</Key>
+		<Key ID="STR_Unlimited">
+			<English>Unlimited</English>
+			<Russian>Не ограничено</Russian>
+		</Key>
+		<Key ID="STR_double">
+			<English>Double</English>
+			<English>Удвоено</English>
+		</Key>
+		<Key ID="STR_MinDist">
+			<English>Minimum Starting Distance From Objective (meters)</English>
+			<Russian>Минимальное растояние для старта от задания (метры)</Russian>
+		</Key>
+		<Key ID="STR_CapRad">
+			<English>Capture Zone Radius (meters)</English>
+			<Russian>Захватить радиус зоны (метры)</Russian>
+		</Key>
+		<Key ID="STR_AttackerFactionParam">
+			<English>Attacker Faction (requires mod)</English>
+			<Russian>Фракция атакующих</Russian>
+		</Key>
+		<Key ID="STR_Automatic">
+			<English>First faction available on server.</English>
+		</Key>
+		<Key ID="STR_VanilaUS">
+			<English>US Army Future by Bohemia Interactive</English>
+		</Key>
+		<Key ID="STR_RHS_US_OCP">
+			<English>US Army (OCP) by Red Hammer Studios</English>
+		</Key>
+		<Key ID="STR_RHS_US_UCP">
+			<English>US Army (UCP) by Red Hammer Studios</English>
+		</Key>
+		<Key ID="STR_RHS_RU_EMR">
+			<English>EMR Russian Army by Red Hammer Studios</English>
+		</Key>
+		<Key ID="STR_RHS_RU_FLORA">
+			<English>Flora Russian Army by Red Hammer Studios</English>
+		</Key>
+		<Key ID="STR_DefenderFactionParam">
+			<English>Defender Faction (requires mod)</English>
+			<Russian>Фракция защитников</Russian>
+		</Key>
+		<Key ID="STR_VanillaTerrorists">
+			<English>Terrorists with vanilla weapons (used automatically if server is missing selected mod)</English>
+		</Key>
+		<Key ID="STR_TerroristsRHSAK">
+			<English>Russian defenders with AKs by Red Hammer Studios</English>
+		</Key>
+		<Key ID="STR_TerroristsRHSUS">
+			<English>USA defenders with M16 by Red Hammer Studios</English>
+		</Key>
+		<Key ID="STR_ModEnabled">
+			<English>Enabled (Disabled if server is missing mod)</English>
+			<Russian>Включен (Выключен если серверу нехватает мода)</Russian>
+		</Key>
+		<Key ID="STR_DefenderGearQuality">
+			<English>Defender Gear Quality</English>
+			<Russian>Уровень вооружения обороняющихся</Russian>
+		</Key>
+		<Key ID="STR_Improved">
+			<English>Improved</English>
+			<Russian>Усиленный</Russian>
+		</Key>
+		<Key ID="STR_Standard">
+			<English>Standard</English>
+			<Russian>Стандартный</Russian>
+		</Key>
+		STR_ForceRoundStart
+		<Key ID="STR_ForceRoundStart">
+			<English>Force round start now!</English>
+			<Russian>Ускорить запуск раунда! (админ)</Russian>
+		</Key>	
+		<Key ID="STR_AutomaticAdminPause">
+			<English>Automatically Pause Round Start</English>
+			<Russian>Приостановить старт раунда (админ)</Russian>
+		</Key>		
+		<Key ID="STR_Never">
+			<English>Never</English>
+			<Russian>Никогда</Russian>
+		</Key>
+		<Key ID="STR_FirstRoundOnly">
+			<English>First Round Only</English>
+			<Russian>Только первый раунд</Russian>
+		</Key>
+		<Key ID="STR_Always">
+			<English>Always</English>
+			<Russian>Всегда</Russian>
+		</Key>
+	</Container>
+	<Container name="Loadouts">
+		<Key ID="STR_MortarGunner">
+			<English>Mortar Gunner</English>
+		</Key>
+		<Key ID="STR_MortarAssistant">
+			<English>Mortar Assistant</English>
+		</Key>
+		<Key ID="STR_Rifleman">
+			<English>Rifleman</English>
+			<Russian>Стрелок</Russian>
+		</Key>
+		<Key ID="STR_Medic">
+			<English>Medic</English>
+			<Russian>Медик</Russian>
+		</Key>
+		<Key ID="STR_Marksman">
+			<English>Marksman</English>
+			<Russian>Стрелок с оптикой</Russian>
+		</Key>
+		<Key ID="STR_AutomaticRifleman">
+			<English>Automatic Rifleman</English>
+			<Russian>Пулеметчик</Russian>
+		</Key>
+		<Key ID="STR_Machinegunner">
+			<English>Machinegunner</English>
+			<Russian>Пулеметчик</Russian>
+		</Key>
+		<Key ID="STR_Grenadier">
+			<English>Grenadier</English>
+			<Russian>гренадер</Russian>
+		</Key>
+		<Key ID="STR_ATGunner">
+			<English>AT Gunner</English>
+			<Russian>ПТ средства</Russian>
+		</Key>
+		<Key ID="STR_SuppressedRifleman">
+			<English>Rifleman (SD)</English>
+		</Key>
+		<Key ID="STR_SuppressedSMG">
+			<English>SMG (SD)</English>
+		</Key>
+		<Key ID="STR_Sniper">
+			<English>Sniper</English>
+			<Russian>Пехотный снайпер</Russian>
+		</Key>
+		<Key ID="STR_Spotter">
+			<English>Spotter</English>
+			<Russian>Наблюдатель</Russian>
+		</Key>
+		<Key ID="STR_UAVOperator">
+			<English>UAV Operator</English>
+		</Key>
+		<Key ID="STR_UAVCarrier">
+			<English>UAV Carrier</English>
+		</Key>
+		<Key ID="STR_Diver">
+			<English>Diver</English>
+			<Russian>Дайвер</Russian>
+		</Key>
+		<Key ID="STR_SpecOps">
+			<English>SpecOps</English>
+			<Russian>СпецНаз</Russian>
+		</Key>
+		<Key ID="STR_RPG">
+			<English>RPG</English>
+			<Russian>РПГ</Russian>
+		</Key>
+		<Key ID="STR_AssistantRPG">
+			<English>Assistant RPG</English>
+			<English>Ассистент РПГ</English>
+		</Key>
+		<Key ID="STR_Saboteur">
+			<English>Saboteur</English>
+			<Russian>Сапер</Russian>
+		</Key>
+		<Key ID="STR_SelectedClass">
+			<English>%1 class selected.</English>
+			<Russian>%1 класс выбран.</Russian>
+		</Key>
+		<Key ID="STR_WeaponsWillBeGiven">
+			<English>Weapons will be given once round starts.</English>
+			<Russian>Оружие будет выдано с началом раунда.</Russian>
+		</Key>
+	</Container>
+	<Container name="Planning">
+		<Key ID="STR_ClickMapForInsertion">
+			<English>Click on map to select a position for %1 insertion.</English>
+			<Russian>Нажмите на карту чтобы выбрать позицию для %1 вторжения.</Russian>
+		</Key>
+		<Key ID="STR_ClickMapObjectivePosition">
+			<English>Click on map to select a good objective position.</English>
+			<Russian>Нажмите на карту чтобы выбрать хорошую позицию для задания.</Russian>
+		</Key>
+		<Key ID="STR_InsertionVehicle0">
+			<English>jeep</English>
+			<Russian>внедорожник</Russian>
+		</Key>
+		<Key ID="STR_InsertionVehicle1">
+			<English>boat</English>
+			<Russian>лодка</Russian>
+		</Key>
+		<Key ID="STR_InsertionVehicle2">
+			<English>submarine</English>
+			<Russian>субмарина</Russian>
+		</Key>
+		<Key ID="STR_InsertionVehicle3">
+			<English>littlebird</English>
+			<Russian>вертолет</Russian>
+		</Key>
+		<Key ID="STR_InsertionVehicle0s">
+			<English>jeeps</English>
+			<Russian>внедорожники</Russian>
+		</Key>
+		<Key ID="STR_InsertionVehicle1s">
+			<English>boats</English>
+			<Russian>лодки</Russian>
+		</Key>
+		<Key ID="STR_InsertionVehicle2s">
+			<English>submarines</English>
+			<Russian>субмарины</Russian>
+		</Key>
+		<Key ID="STR_InsertionVehicle3s">
+			<English>littlebirds</English>
+			<Russian>вертолеты</Russian>
+		</Key>
+		<Key ID="STR_DefaultInsertion">
+			<English>Default (%1)</English>
+			<Russian>По-умолчанию (%1)</Russian>
+		</Key>		
+		<Key ID="STR_JeepInsertion">
+			<English>Jeep Insertion</English>
+			<Russian>Вторжение на внедорожниках</Russian>
+		</Key>
+		<Key ID="STR_BoatInsertion">
+			<English>Boat Insertion</English>
+			<Russian>Вторжение на лодках</Russian>
+		</Key>
+		<Key ID="STR_SubmarineInsertion">
+			<English>Submarine Insertion</English>
+			<Russian>Вторжение на морских черепахах</Russian>
+		</Key>
+		<Key ID="STR_LittlebirdInsertion">
+			<English>Littlebird Insertion</English>
+			<Russian>Вторжение на вертолетах</Russian>
+		</Key>
+		<Key ID="STR_SelectObjectivePosition">
+			<English>Select Objective Position</English>
+			<Russian>Выберите позицию для атаки</Russian>
+		</Key>
+		<Key ID="STR_Ready">
+			<English>Ready</English>
+			<Russian>Готовность</Russian>
+		</Key>
+		<Key ID="STR_ChooseTFRChannel">
+			<English>Choose Radio Channel</English>
+			<Russian>Выберите канал рации</Russian>
+		</Key>
+		<Key ID="STR_TFRChannel">
+			<English>Channel %1</English>
+			<Russian>Канал %1</Russian>
+		</Key>
+		<Key ID="STR_TFRChannelUsers">
+			<English>Channel %1 (Used by %2)</English>
+			<Russian>Канал %1 (используется %2)</Russian>
+		</Key>
+		<Key ID="STR_CancelTFRChannelMenu">
+			<English>Cancel Radio Channel Menu</English>
+			<Russian>Закрыть меню выбора каналов рации</Russian>
+		</Key>
+		<Key ID="STR_Public">
+			<English>Public</English>
+			<Russian>Общий</Russian>
+		</Key>
+		<Key ID="STR_Command">
+			<English>Command</English>
+			<Russian>Командный</Russian>
+		</Key>
+		<Key ID="STR_InsertionPositionUpdated">
+			<English>Insertion position updated.</English>
+			<Russian>Позиция вторжения обновлена.</Russian>
+		</Key>
+		<Key ID="STR_InsertingWith">
+			<English>Inserting with %1.</English>
+			<Russian>Вторжение на %1.</Russian>
+		</Key>
+		<Key ID="STR_SelectInsertionMethod">
+			<English>Select insertion method and position using the yellow cinderblocks.</English>
+			<Russian>Выберите способ вторжения и позицию с пoмoщью желтого блока.</Russian>
+		</Key>
+		<Key ID="STR_InvalidPosition">
+			<English>Invalid position! Pick an insertion position outside the red circle.</English>
+			<Russian>Непрабильная позиция! Выберите позицию для вторжения вне красного круга.</Russian>
+		</Key>
+		<Key ID="STR_InvalidPositionWater">
+			<English>Invalid position! Jeeps must start on land.</English>
+			<Russian>Неправильное размещение! Машины стартуют на суше.</Russian>
+		</Key>
+		<Key ID="STR_InvalidPositionLand">
+			<English>Invalid position! Boats and submarines must start on water.</English>
+			<Russian>Неправильное размещение! Лодки и морские черепахи стартуют в воде.</Russian>
+		</Key>
+		<Key ID="STR_InvalidPositionHeloBug">
+			<Russian>Неправильное размещение! Вертолеты не могут стартовать летающими (feedback.arma3.com bug #0021806).</Russian>
+		</Key>
+		<Key ID="STR_WaitNextRound">
+			<English>Waiting for next round.</English>
+			<Russian>Ожидание следующего раунда</Russian>
+		</Key>
+		<Key ID="STR_PreferDriving">
+			<English>Prefer Driving</English>
+			<Russian>Готов быть водителем</Russian>
+		</Key>
+		<Key ID="STR_PreferNotDriving">
+			<English>Prefer Not Driving</English>
+			<Russian>Не хочу быть водителем</Russian>
+		</Key>
+		<Key ID="STR_EnableCommandChannel">
+			<English>Enable Command Channel</English>
+			<Russian>Включить командный канал рации</Russian>
+		</Key>
+		<Key ID="STR_DisableCommandChannel">
+			<English>Disable Command Channel</English>
+			<Russian>Отключить командный канал рации</Russian>
+		</Key>
+		<Key ID="STR_InsertionMaster">
+			<English>Insertion Master</English>
+			<Russian>Главный по вторжению</Russian>
+		</Key>
+		<Key ID="STR_ResumeSpectating">
+			<English>Resume Spectating</English>
+			<Russian>Продолжить наблюдение</Russian>
+		</Key>
+		<Key ID="STR_SpectatingFrom">
+			<English>Spectating from %1.</English>
+			<Russian>Наблюдать за %1.</Russian>
+		</Key>
+		<Key ID="STR_PauseRoundStart">
+			<English>Pause round start.</English>
+			<Russian>Приостановить начало раунда.</Russian>
+		</Key>
+		<Key ID="STR_UnPauseRoundStart">
+			<English>Un-pause round start.</English>
+			<Russian>Снять паузу начала раунда.</Russian>
+		</Key>
+		<Key ID="STR_ReLocateObjectivePosition">
+			<English>Re-locate objective position.</English>
+			<Russian>Переопределить размещение.</Russian>
+		</Key>
+		<Key ID="STR_ClickMapToPlaceObjective">
+			<English>Click on the map to select the objective location.</English>
+			<Russian>Нажмите на карту, чтобы задать размещение.</Russian>
+		</Key>
+		<Key ID="STR_CannotPlaceObjectiveOnWater">
+			<English>Cannot place objective on water.</English>
+			<Russian>Нельзя разместиться на воде.</Russian>
+		</Key>
+	</Container>
+    <Container name="UI">
+		<Key ID="STR_Attacking">
+			<English>Attacking %1%2</English>
+			<Russian>Атака %1%2</Russian>
+		</Key>
+		<Key ID="STR_Capturing">
+			<English>Capturing %1%2</English>
+			<Russian>Захват %1%2</Russian>
+		</Key>
+		<Key ID="STR_Defending">
+			<English>Defending %1%2</English>
+			<Russian>Оборона %1%2</Russian>
+		</Key>
+		<Key ID="STR_Holding">
+			<English>Holding %1%2</English>
+			<Russian>Удерж-е %1%2</Russian>
+		</Key>
+		<Key ID="STR_Defending0">
+			<English>Defending</English>
+			<Russian>Оборона</Russian>
+		</Key>
+		<Key ID="STR_Holding0">
+			<English>Holding</English>
+			<Russian>Удержание</Russian>
+		</Key>
+		<Key ID="STR_Waiting0">
+			<English>Waiting</English>
+			<Russian>Ожидание</Russian>
+		</Key>
+		<Key ID="STR_Planning">
+			<English>Planning</English>
+			<Russian>Планирование</Russian>
+		</Key>
+	</Container>
+	<Container name="Notifications">
+		<Key ID="STR_CapMsg">
+			<English>You are now attempting to capture. Overwhelm enemies in the zone to win.</English>
+			<Russian>Вы пытаетесь захватить зону. Уничтожьте врага в зоне чтобы победить.</Russian>
+		</Key>
+		<Key ID="STR_StopCapMsg">
+			<English>You are no longer attempting to capture the zone.</English>
+			<Russian>Вы больше не претендуете на захват зоны.</Russian>
+		</Key>
+		<Key ID="STR_DefendMsg">
+			<English>You are now attempting to hold. Make sure there isn't an overwhelming number of enemies inside the zone.</English>
+			<Russian>Вы удерживаете зону. Убедитесь, что у врага нет большего количества игроков в зоне.</Russian>
+		</Key>
+		<Key ID="STR_StopDefendMsg">
+			<English>"You are no longer attempting to hold the zone.</English>
+			<Russian>Вы более не претендуете на захват зоны.</Russian>
+		</Key>
+		<Key ID="STR_YourTeamWon">
+			<English>Your Team Won!</English>
+			<Russian>Ваша команда выиграла!</Russian>
+		</Key>
+		<Key ID="STR_YourTeamLost">
+			<English>Your Team Lost!</English>
+			<Russian>Ваша команда проиграла!</Russian>
+		</Key>
+		<Key ID="STR_TryWinAgain">
+			<English>Try win again! Next round will start shortly.</English>
+			<Russian>Попробуйте повторить успех!</Russian>
+		</Key>
+		<Key ID="STR_TryWinNext">
+			<English>Do better next time! Next round will start shortly.</English>
+			<Russian>Плохо стараетесь, поднажмите!</Russian>
+		</Key>
+		<Key ID="STR_EnemyTeamHasBeenEliminated">
+			<English>Enemy team has been eliminated.</English>
+			<Russian>Вражеская команда уничтожена.</Russian>
+		</Key>
+		<Key ID="STR_YourTeamHasBeenEliminated">
+			<English>Your team has been eliminated.</English>
+			<Russian>Ваша команда уничтожена</Russian>
+		</Key>
+		<Key ID="STR_YourTeamRanOutOfTime">
+			<English>Your team ran out of time.</English>
+			<Russian>У вашей команды закончилось время.</Russian>
+		</Key>
+		<Key ID="STR_EnemyTeamRanOutOfTime">
+			<English>Enemy team ran out of time.</English>
+			<Russian>У вражеской комнды закончилось время.</Russian>
+		</Key>
+		<Key ID="STR_YourTeamCapturedTheZone">
+			<English>Your team has captured the zone.</English>
+			<Russian>Ваша команда захватила зону.</Russian>
+		</Key>
+		<Key ID="STR_EnemyTeamCapturedTheZone">
+			<English>Enemy team has captured the zone.</English>
+			<Russian>Вражеская команда захватила зону.</Russian>
+		</Key>
+		<Key ID="STR_CaptureTheZone">
+			<English>Capture The Zone!</English>
+			<Russian>Захватить зону!</Russian>
+		</Key>
+		<Key ID="STR_CaptureTheZoneLong">
+			<English>Enter the zone and capture it before running out of time.</English>
+			<Russian>Захватить зону, пока ест время!</Russian>
+		</Key>
+		<Key ID="STR_DefendTheZone">
+			<English>Defend The Zone!</English>
+			<Russian>Защитить зону!</Russian>
+		</Key>
+		<Key ID="STR_DefendTheZoneLong">
+			<English>Do not let attackers get inside the zone.</English>
+			<Russian>Не дайте атакующим захватить зону.</Russian>
+		</Key>
+		<Key ID="STR_AFKWarning">
+			<English>You are AFK and will be killed in %1 seconds if you do not move.</English>
+			<Russian>Вы АФК, будете убиты через %1 секунд, если не пошевелитесь.</Russian>
+		</Key>
+		<Key ID="STR_NotAFK">
+			<English>You are no longer AFK.</English>
+			<Russian>Вы больше не АФК.</Russian>
+		</Key>
+		<Key ID="STR_KilledAFK">
+			<English>You were killed for being AFK.</English>
+			<Russian>Вы были убиты за АФК.</Russian>
+		</Key>
+		<Key ID="STR_ServerDifficultyPvP">
+			<English>Server difficulty settings are unsuitable for PvP. Request the server administrator to disable the following options:</English>
+			<Russian>Настройки сервера не подходят для ПВП. Попросите администратора сервера отключить следующие настройки:</Russian>
+		</Key>
+		<Key ID="STR_ServerDifficultyRealism">
+			<English>Server difficulty settings are unsuitable for hardcore realism. Request the server administrator to disable the following options:</English>
+			<Russian>Настройки сервера не подходят для хардкор реализма. Попросите администратора сервера отключить следующие настройки:</Russian>
+		</Key>
+		<Key ID="STR_WarningPoorServerPerformance">
+			<English>Warning! Poor server performance! Average server FPS: %1</English>
+			<Russian>Внимание! Слабая производительность сервера. Средний ФПС: %1</Russian>
+		</Key>
+		<Key ID="STR_Warning">
+			<English>Warning!</English>
+			<Russian>Внимание!</Russian>
+		</Key>
+		<Key ID="STR_CannotCarryBackpackAndLauncher">
+			<English>Cannot carry a backpack and a launcher at the same time.</English>
+			<Russian>Нет возможности нести рюкзак и гранатомет одновременно.</Russian>
+		</Key>
+		<Key ID="STR_CannotAttachSightsToMG">
+			<English>Cannot attach sights to Zafir, MX SW, RPK or PKP.</English>
+			<Russian>Не могу надеть приспособления на Зафир, МХ СВ, РПК, ПКП.</Russian>
+		</Key>
+		<Key ID="STR_VehicleIsLocked">
+			<English>This vehicle is locked.</English>
+			<Russian>Техника залочена.</Russian>
+		</Key>
+		<Key ID="STR_OnlyMedicsOneFAK">
+			<English>Only medics can carry more than one first aid kit.</English>
+			<Russian>Только медики могут нести более одной аптечки.</Russian>
+		</Key>
+		<Key ID="STR_OnlyMedicsFAK">
+			<English>Only medics can carry first aid kits.</English>
+			<Russian>Только медики могут носить аптечку.</Russian>
+		</Key>
+	</Container>
+	<Container name="GroupManagement">
+		<Key ID="STR_GroupManagementMenu">
+			<English>Open/Refresh Group Management Menu</English>
+			<Russian>Открыть/обновить меню управления группой</Russian>
+		</Key>
+		<Key ID="STR_CancelGroupMenu">
+			<English>Cancel Group Menu</English>
+			<Russian>Закрыть меню группы</Russian>
+		</Key>
+		<Key ID="STR_LockGroup">
+			<English>Lock Group</English>
+			<Russian>Закрыть группу</Russian>
+		</Key>
+		<Key ID="STR_UnlockGroup">
+			<English>Unlock Group</English>
+			<Russian>Открыть группу</Russian>
+		</Key>
+		<Key ID="STR_LeaveGroup">
+			<English>Leave Group</English>
+			<Russian>Покинуть группу</Russian>
+		</Key>
+		<Key ID="STR_Join">
+			<English>Join %1</English>
+			<Russian>Присоединиться к %1</Russian>
+		</Key>
+		<Key ID="STR_Kick">
+			<English>Kick %1</English>
+			<Russian>Выгнать %1</Russian>
+		</Key>
+		<Key ID="STR_Promote">
+			<English>Promote %1</English>
+			<Russian>Голосовать за %1</Russian>
+		</Key>
+		<Key ID="STR_GroupUnavailable">
+			<English>Group is no longer available for joining.</English>
+			<Russian>Группа более недоступна для присоединения.</Russian>
+		</Key>
+		<Key ID="STR_PlayerHasLeft">
+			<English>Player has left.</English>
+			<Russian>Игрок покинул группу.</Russian>
+		</Key>
+		<Key ID="STR_CannotPromote">
+			<English>Cannot promote %1.</English>
+			<Russian>Нет возможности голосовать за %1.</Russian>
+		</Key>
+		<Key ID="STR_CannotKick">
+			<English>Cannot kick %1.</English>
+			<Russian>Нет возможности выгнать %1.</Russian>
+		</Key>
+	</Container>
+	<Container name="TF">
+		<Key ID="STR_GPS">
+			<English>Do players have a GPS?</English>
+			<Russian>У игроков есть GPS?</Russian>
+		</Key>
+		<Key ID="STR_RHS_RU_AK">
+			<English>RU Rifleman with ak74m</English>
+			<Russian>Стрелок РФ с ак74м</Russian>
+		</Key>
+		<Key ID="STR_RHS_RU_103">
+			<English>RU Rifleman with ak103</English>
+			<Russian>Стрелок РФ с ак103</Russian>
+		</Key>
+		<Key ID="STR_RHS_RU_GP">
+			<English>RU Grenadier with ak74m-gp-25</English>
+			<Russian>Гранатометчик РФ с ак74м-гп-25</Russian>
+		</Key>
+		<Key ID="STR_RHS_RU_PT">
+			<English>RU Grenadier with ak74m and bazooka (RPG-7)</English>
+			<Russian>Стрелок ПТ РФ с ак74м и РПГ-7</Russian>
+		</Key>
+		<Key ID="STR_RHS_RU_PKP">
+			<English>RU Machinegunner with Pecheneg (PKP)</English>
+			<Russian>Пулеметчик РФ с ПКП</Russian>
+		</Key>
+		<Key ID="STR_RHS_RU_AS">
+			<English>RU Ammo assistant with ak74m</English>
+			<Russian>Подносчик боеприпасов РФ с ак74м</Russian>
+		</Key>
+		<Key ID="STR_RHS_RU_MED">
+			<English>RU Field medic with ak74m</English>
+			<Russian>Полевой санитар РФ с ак74м</Russian>
+		</Key>
+		<Key ID="STR_RHS_RU_MINER">
+			<English>RU Sapper with ak74m</English>
+			<Russian>Сапёр РФ с ак74м</Russian>
+		</Key>
+		<Key ID="STR_RHS_RU_KORD1">
+			<English>RU KORD operator</English>
+			<Russian>Оператор "Корд" РФ</Russian>
+		</Key>
+		<Key ID="STR_RHS_RU_KORD2">
+			<English>RU KORD operator assistant</English>
+			<Russian>Помошник оператора "Корд" РФ</Russian>
+		</Key>
+		<Key ID="STR_RHS_RU_SNIPER">
+			<English>RU Sniper with SVDm</English>
+			<Russian>Снайпер РФ со СВДм</Russian>
+		</Key>
+		<Key ID="STR_RHS_RU_SPECOPS">
+			<English>RU SpecOps with VAL</English>
+			<Russian>Спецназ РФ с ВАЛ</Russian>
+		</Key>
+		<Key ID="STR_RHS_RU_ENG">
+			<English>RU Engineer with ak74m</English>
+			<Russian>Военный инженер РФ с ак74м</Russian>
+		</Key>
+		<Key ID="STR_RHS_RU_DI">
+			<English>RU Diver with SDAR</English>
+			<Russian>Дайвер РФ со SDAR</Russian>
+		</Key>
+		<Key ID="STR_RHS_US_M16">
+			<English>USA Rifleman with m16a4</English>
+			<Russian>Стрелок США с m16a4</Russian>
+		</Key>
+		<Key ID="STR_RHS_US_M4">
+			<English>USA Rifleman with m4a1</English>
+			<Russian>Стрелок США с m4a1</Russian>
+		</Key>
+		<Key ID="STR_RHS_US_GP">
+			<English>USA Grenadier with m4a1-m203s</English>
+			<Russian>Гранатометчик США с m4a1-m203s</Russian>
+		</Key>
+		<Key ID="STR_RHS_US_PT">
+			<English>USA Grenadier with m4a1 and bazooka (m136 HEDP)</English>
+			<Russian>Стрелок ПТ США с m4a1 и m136 HEDP</Russian>
+		</Key>
+		<Key ID="STR_RHS_US_MG">
+			<English>USA Machinegunner with m249</English>
+			<Russian>Пулеметчик США с m249</Russian>
+		</Key>
+		<Key ID="STR_RHS_US_AS">
+			<English>USA Ammo assistant with m4a1</English>
+			<Russian>Подносчик боеприпасов США с m4a1</Russian>
+		</Key>
+		<Key ID="STR_RHS_US_MED">
+			<English>USA Field medic with m4a1</English>
+			<Russian>Полевой санитар США с m4a1</Russian>
+		</Key>
+		<Key ID="STR_RHS_US_MINER">
+			<English>USA Sapper with m4a1</English>
+			<Russian>Сапёр США с m4a1</Russian>
+		</Key>
+		<Key ID="STR_RHS_US_M2_1">
+			<English>USA M2 operator</English>
+			<Russian>Оператор "M2" США</Russian>
+		</Key>
+		<Key ID="STR_RHS_US_M2_2">
+			<English>USA M2 operator assistant</English>
+			<Russian>Помошник оператора "М2" США</Russian>
+		</Key>
+		<Key ID="STR_RHS_US_SN">
+			<English>USA Sniper with m14</English>
+			<Russian>Снайпер США с m14</Russian>
+		</Key>
+		<Key ID="STR_RHS_US_SPECOPS">
+			<English>USA SpecOps with mk18</English>
+			<Russian>Спецназ США с mk18</Russian>
+		</Key>
+		<Key ID="STR_RHS_US_ENG">
+			<English>USA Engineer with m4a1</English>
+			<Russian>Военный инженер США с m4a1</Russian>
+		</Key>
+		<Key ID="STR_RHS_US_DI">
+			<English>USA Diver with SDAR</English>
+			<Russian>Дайвер США со SDAR</Russian>
+		</Key>
+		<Key ID="STR_AttackerGearQuality">
+			<English>Attacker Gear Quality</English>
+			<Russian>Уровень вооружения атакующих</Russian>
+		</Key>
+		<Key ID="STR_Improved2">
+			<English>Very improved</English>
+			<Russian>Очень усиленный</Russian>
+		</Key>
+		<Key ID="STR_RHS_RU">
+			<English>RU RHS EMR</English>
+			<Russian>РФ RHS ЕМР (зеленая цифра)</Russian>
+		</Key>
+		<Key ID="STR_RHS_US">
+			<English>USA RHS OCP</English>
+			<Russian>USA RHS OCP</Russian>
+		</Key>
+		<Key ID="STR_RHS_RU2">
+			<English>RU RHS EMR vanilla medical</English>
+			<Russian>РФ RHS ЕМР (зеленая цифра) ванильная медицина</Russian>
+		</Key>
+		<Key ID="STR_RHS_US2">
+			<English>USA RHS OCP vanilla medical</English>
+			<Russian>USA RHS OCP ванильная медицина</Russian>
+		</Key>
+		<Key ID="STR_RHS_INSURGENTS_AK">
+			<English>Insurgents Chechnya RHS AK</English>
+			<Russian>Чеченские сепаратисты RHS АК</Russian>
+		</Key>
+		<Key ID="STR_VanillaD">
+			<English>Vanilla Guerilla</English>
+			<Russian>Ванильные партизаны</Russian>
+		</Key>
+		<Key ID="STR_VanillaA">
+			<English>Vanilla USA</English>
+			<Russian>Ванильные войска USA</Russian>
+		</Key>
+<Key ID="C_aventador"> //за неоценимый вклад в дело 
+ <Russian>сержант Авентадор</Russian>
+ <English>sgt. Aventador</English>
+</Key>
+<Key ID="C_fighter">
+ <Russian>Стрелок</Russian>
+ <English>Rifleman</English>
+</Key>
+<Key ID="C_fighter2">
+ <Russian>Стрелок</Russian>
+ <English>Rifleman</English>
+</Key>
+<Key ID="C_fighter3">
+ <Russian>Стрелок</Russian>
+ <English>Rifleman</English>
+</Key>
+<Key ID="C_grenadier">
+ <Russian>Гранатометчик</Russian>
+ <English>Grenadier</English>
+</Key>
+<Key ID="C_medic">
+ <Russian>Полевой санитар</Russian>
+ <English>Field medic</English>
+</Key>
+<Key ID="C_support">
+ <Russian>Подносчик боеприпасов</Russian>
+ <English>Ammo support</English>
+</Key>
+<Key ID="C_sniper">
+ <Russian>Пехотный снайпер</Russian>
+ <English>Sniper</English>
+</Key>
+<Key ID="C_specops">
+ <Russian>Спецназ</Russian>
+ <English>SpecOps</English>
+</Key>
+<Key ID="C_specops2">
+ <Russian>Спецназ</Russian>
+ <English>SpecOps</English>
+</Key>
+<Key ID="C_machinegunner">
+ <Russian>Пулеметчик</Russian>
+ <English>Machinegunner</English>
+</Key>
+<Key ID="C_machinegunner2">
+ <Russian>Пулеметчик</Russian>
+ <English>Machinegunner</English>
+</Key>
+<Key ID="C_engineer">
+ <Russian>Инженер</Russian>
+ <English>Engineer</English>
+</Key>
+<Key ID="C_sapper">
+ <Russian>Сапёр</Russian>
+ <English>Sapper</English>
+</Key>
+<Key ID="C_heavygunoperator">
+ <Russian>Стрелок стационарного орудия</Russian>
+ <English>Stationary gun operator</English>
+</Key>
+<Key ID="C_heavygunoperator2">
+ <Russian>Помошник стрелка орудия</Russian>
+ <English>Stationary gun assistant</English>
+</Key>
+<Key ID="C_launcher">
+ <Russian>Стрелок с трубой</Russian>
+ <English>Rifleman AT</English>
+</Key>
+<Key ID="C_launcher2">
+ <Russian>Стрелок с трубой</Russian>
+ <English>Rifleman AT</English>
+</Key>
+<Key ID="C_diver">
+ <Russian>Дайвер</Russian>
+ <English>Diver</English>
+</Key>
+<Key ID="C_officer">
+ <Russian>Офицер</Russian>
+ <English>Officer</English>
+</Key>
+<Key ID="C_talibanaventador">
+ <Russian>Имам Авентадор</Russian>
+ <English>Imam Aventador</English>
+</Key>
+		<Key ID="STR_Defendability">
+			<English>Defend side are able to regain control of the zone?</English>
+			<Russian>Сторона обороны может вернуть контроль над зоной?</Russian>
+		</Key>
+
+		<Key ID="STR_ShowPlayersMarkers">
+			<English>Show players markers on map?</English>
+			<Russian>Показывать метки игроков на карте?</Russian>
+		</Key>
+
+		<Key ID="STR_ShowPlayersCursors">
+			<English>Show cursors of players of your team?</English>
+			<Russian>Показывать имена игроков своей команды при находжении рядом?</Russian>
+		</Key>
+
+		<Key ID="STR_FractionDefined">
+			<English>Faction classes defined</English>
+			<Russian>Согласно настройкам фракции</Russian>
+		</Key>
+
+		<Key ID="STR_ShowDefendingInfo">
+			<English>Does defending side see info about zone capturing?</English>
+			<Russian>Защитники видят информацию о захвате зоны?</Russian>
+		</Key>
+
+  	<Key ID="STR_CommentTimeandpoints">
+			<English>[                    Time and score settings:                   ]</English>
+			<Russian>[                    Настройки времени и счета:                 ]</Russian>
+		</Key>
+		<Key ID="STR_CommentDificulty">
+			<English>[                      Difficulty settings:                     ]</English>
+			<Russian>[                       Настройки сложности:                    ]</Russian>
+		</Key>
+		<Key ID="STR_CommentWheather">
+			<English>[                        Wheater settings:                      ]</English>
+			<Russian>[                        Настройки погоды:                      ]</Russian>
+		</Key>
+		<Key ID="STR_CommentGear">
+			<English>[                       Teams gear settings:                    ]</English>
+			<Russian>[                      Настройки экипировки:                    ]</Russian>
+		</Key>
+		<Key ID="STR_BALANCE">
+			<English>Balance:</English>
+			<Russian>Баланс:</Russian>
+		</Key>
+		<Key ID="STR_RESERVEDSLOT">
+			<English>Attention!\nThis is a reserved admin slot.\nIf you are an admin on this server log in in the next %1 seconds otherwise you'll get kicked automatically!</English>
+			<Russian>Внимание!\nВы заняли слот, забронированный для работы администраторов сервера.\nЕсли вы администратор, авторизуйтесь в течение следующих %1 секунд.\nВ противном случае вы будете отключены от сервера.</Russian>
+		</Key>
+		<Key ID="STR_RESERVEDSLOTADMIN">
+			<English>Welcome, %1!\nYou logged in as admin.</English>
+			<Russian>Добро пожаловать, %1!\nВы авторизовались как администратор.</Russian>
+		</Key>
+
+		<Key ID="STR_0">
+			<English>0</English>
+			<Russian>0</Russian>
+		</Key>
+
+	</Container>
+  </Package>
+</Project>
